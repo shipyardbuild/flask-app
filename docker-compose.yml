@@ -6,3 +6,11 @@ services:
     build: '.'
     ports:
       - '8080:8080'
+
+  postgres:
+    image: 'postgres:9.6-alpine'
+    environment:
+      POSTGRES_DB: 'flask_app'
+
+  redis:
+    image: 'redis:4-alpine'
