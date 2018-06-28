@@ -1,3 +1,3 @@
-# Example Flask app
+# Flask app
 
 Run with `make develop`.
