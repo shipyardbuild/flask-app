@@ -4,7 +4,7 @@ services:
 
   web:
     labels:
-      shipard.route: '/'
+      shipyard.route: '/'
     build: '.'
     ports:
       - '8080:8080'
