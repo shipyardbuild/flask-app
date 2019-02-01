@@ -6,6 +6,9 @@ services:
     labels:
       shipyard.route: '/'
     build: '.'
+    depends_on:
+      - postgres
+      - redis
     ports:
       - '8080:8080'
 
