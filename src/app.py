@@ -6,5 +6,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    print('I like python', flush=True)
-    return 'Pull Request, gotta get her to work! 3nd commit'
+    print('I like Python!', flush=True)
+    return 'Hello, world!'
